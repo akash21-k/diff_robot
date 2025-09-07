@@ -20,7 +20,7 @@ $ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 # after the mapping in order to save the map:
 $ ros2 run nav2_map_server map_saver_cli -f ~/my_map
-after the saving the close all the tab
+(after the saving the close all the tab)
 
 # for autonomous navigation 
 $ source ros2_ws/install/setup.bash
