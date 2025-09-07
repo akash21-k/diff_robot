@@ -4,12 +4,14 @@
 # setup 
 $ mkdir -p ros2_ws/src
 $ cd ros2_ws/src
-$ git clone 
+$ git clone https://github.com/akash21-k/diff_robot.git (extract the diff_robot file from its zip folder to the src folder)
+$ cd ..
+$ colcon build
 
 # for gazebo simulation and control of robot through keyboard
 $ source ros2_ws/install/setup.bash
 $ ros2 launch diff_robot gazebo.launch.py
-$ ros2 run teleop_twist_keyboard teleop_twist_keyboard
+$ ros2 run teleop_twist_keyboard teleop_twist_keyboard (reduce the speed of the robot if it is high using z keyboard button)
 
 # for mapping and SLAM
 $ source ros2_ws/install/setup.bash
